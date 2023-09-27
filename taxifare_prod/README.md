@@ -6,17 +6,29 @@
 
 ## Context
 
-Now that we have a performant model trained in the cloud, we will expose it to the world 🌍
+## TASKS:
+**1. Train at Scale locally**
 
-We will create a **prediction API** for our model, run it on our machine to make sure that everything works correctly, and then we will deploy it in the cloud so that everyone can play with our model!
+**2. Train on Cloud**
+- Store model weights on Google Cloud Storage
+- Store & query data on Google Big Query
+- Use cloud power with Google Compute Engine (Virtual Machines)
+- Use a cloud managed solution with Google Vertex AI Workbench (Jupyter Lab on the cloud)
 
-To do so, we will:
+**3. Automate Model Lifecycle**
+- Store model versions and monitor performance with MLflow
+- Retrain on fresh new data using Prefect to manage your DAG (Direct Acyclic Graph)
 
-👉 create a **prediction API** using **FastAPI**
+**4. Predict in production**
+- Develop your API with FastAPI and uvicorn
+- Create a Docker image for your app
+- Deploy Docker containers to production using Google Cloud Run
 
-👉 create a **Docker image** containing the environment required to run the code of our API
+**5. User interface**
+- Develop a user interface with Streamlit
+- Plug a user interface to your FastAPI
+- Deploy your front end on Streamlit Cloud (or Cloud Run or Heroku)
 
-👉 push this image to **Google Cloud Run** so that it runs inside a **Docker container** that will allow developers all over the world to use it
 
 # 1️⃣ Project Setup 🛠
 
