@@ -1,8 +1,4 @@
-## Objective
 
-1. Use **FastAPI** to create an API for your model
-2. Run that API on your machine
-3. Put it in production
 
 ## Context
 
